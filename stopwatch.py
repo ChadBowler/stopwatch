@@ -1,9 +1,5 @@
 import customtkinter as ctk
-import datetime
-import time
 from tkinter import ttk
-
-
 
 class App:
     def __init__(self, master) -> None:
@@ -17,10 +13,8 @@ class App:
         self.hours = 0
         self.running = False
         
-
         self.timerLabel = ctk.CTkLabel(self.master, text=f"{'{:02d}'.format(self.hours)}:{'{:02d}'.format(self.minutes)}:{'{:02d}'.format(self.seconds)}:{'{:02d}'.format(self.miliseconds)}", font=('Arial bold', 28))
         self.timerLabel.place(relx=0.425, rely=0.1)
-
 
         self.start_button = ctk.CTkButton(self.master,
                                     fg_color='green',
@@ -51,7 +45,6 @@ class App:
         if self.running:
             self.timerLabel.after(10, self.timer)
            
-            
             if self.miliseconds == 99:
                 self.miliseconds = -1
                 if self.seconds == 59:
@@ -65,7 +58,6 @@ class App:
             self.timerLabel.configure(text=f"{'{:02d}'.format(self.hours)}:{'{:02d}'.format(self.minutes)}:{'{:02d}'.format(self.seconds)}:{'{:02d}'.format(self.miliseconds)}")
 
     def start_timer(self):
-        self.start_time = int(time.time())
         self.running = True
         self.start_button._fg_color='darkred'
         self.start_button._hover_color='red'
