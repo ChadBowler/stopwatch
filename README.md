@@ -21,7 +21,7 @@ A simple, easy to use stopwatch built in Python. Uses customtkinter and tkinter 
 
 * Once the application is opened, click on the start button to start the timer. To stop the timer, click the stop button. The timer can either be started again, starting at the time it was at when stopped, or it can be reset by clicking the reset button.
 
-* https://github.com/ChadBowler/stopwatch/assets/127648744/a559b4c0-0c20-4536-9828-2c678aa1c19f
+![Stopwatch Widget](https://github.com/ChadBowler/stopwatch/assets/127648744/fcdd9bcd-6ec3-47a7-921a-af7864b0ed70)
 
 ## License
 
@@ -36,4 +36,5 @@ A simple, easy to use stopwatch built in Python. Uses customtkinter and tkinter 
 * Checkout my Github! [ChadBowler](https://www.github.com/ChadBowler)
 
 * If you have questions, feel free to contact me at: cbowlerdev@gmail.com
+
 
