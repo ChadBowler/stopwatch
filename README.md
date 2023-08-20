@@ -15,7 +15,7 @@ A simple, easy to use stopwatch built in Python. Uses customtkinter and tkinter 
 
 ## Installation
 
-* No installation is available as of right now.
+* No installation is available as of right now. If you want to run this program on your local computer, feel free to clone the repo.
 
 ## Usage
 
